@@ -2,11 +2,10 @@
   "name": "mcpe-bot",
   "version": "1.0.0",
   "main": "bot.js",
-  "type": "commonjs",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
-    "bedrock-protocol": "3.43.0"
+    "xbox-bedrock-protocol": "1.3.1"
   }
 }
