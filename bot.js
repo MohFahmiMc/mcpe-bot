@@ -6,7 +6,7 @@ const client = mc.createClient({
   username: process.env.MC_EMAIL,
   offline: false, 
   password: process.env.MC_PASSWORD,
-  version: "1.21.123.2"
+  version: "1.21.90"
 });
 
 client.on("login", () => {

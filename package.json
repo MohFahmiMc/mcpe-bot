@@ -2,10 +2,9 @@
   "name": "mcpe-bot",
   "version": "1.0.0",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
+  "type": "module",
   "dependencies": {
-    "bedrock-protocol": "git+https://github.com/PrismarineJS/bedrock-protocol.git"
+    "bedrock-protocol": "3.21.0"
+     "discord.js": "^14.14.1"
   }
 }
